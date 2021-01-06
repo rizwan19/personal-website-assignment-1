@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size:40px;
+    font-weight: 900;
+    text-align: center;
+}
+h2{
+    font-weight:900;
+    text-align:center;
+}
+p{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/*   navbar area   */
+.list-item{
+    list-style: none;
+}
+.list-item li{
+    float:right;
+    padding-right: 40px;
+}
+.list-item li a{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    font-weight: 600;
+}
+#navbar{
+    height:50px;
+    padding-top:25px;
+    padding-right:70px;
+}
+
+/*  top area    */
+#top-area{
+    height: 550px;
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.half-width{
+    width: 40%;
+    height: 450px;
+    float:left;
+    margin-right:30px;
+}
+.half-width img{
+    width:100%;
+}
+.highlight{
+    color: blue;
+}
+.btn{
+    padding:15px 40px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #1A2980 , #26D0CE );
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*   Mid Area   */
+#mid-area{
+    height: 550px;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+/*      Skills Area     */
+#skills{
+    background-color: whitesmoke;
+}
+.skill-set img{
+    width:80px;
+    height:80px;
+}
+.skill-set{
+    height:220px;
+    width:80%;
+    margin:auto;
+    padding-left:40px;
+}
+.skill-set ul{
+    margin:auto;
+}
+.skill-set ul li{
+    float: left;
+    list-style: none;
+    padding-left:60px;
+}
+.skill-set h3{
+    font-weight: 900;
+    text-align: center;
+    font-size: medium;
+}
+
+/*   Project Area   */
+#project-area{
+    height: 550px;
+    padding-left:  100px;
+    background-color: whitesmoke;
+}
+.single-project{
+    height: 400px;
+    width:25%;
+    float: left;
+    margin: 30px;
+}
+.single-project img{
+    width:100%;
+}
+
+/*     Inquiry Area    */
+#inquiry-area{
+    height: 350px;
+    padding-top:100px;
+}
+.unique-h1{
+    text-align: unset;
+    display: inline;
+    float: left;
+    color: white;
+}
+.unique-btn{
+    float: right;
+}
+.purple-area{
+    height: 150px;
+    width: 70%;
+    margin: auto;
+    background-image: url("../shapes/Group_33094_1.png");
+    background-size:100%;
+    background-position: center;
+    padding-top:50px;
+    padding-left:50px;
+    padding-right:50px;
+    border-radius: 20px;
+}
+
+/*  Footer area */
+#bottom-area img{
+    height:25px;
+    width:25px;
+}
+#bottom-area{
+    height:180px;
+}
+.unique-h2{
+    text-align:justify;
+}
+.bottom-elements{
+    margin:auto;
+    width:25%;
+    align-content: center;
+}
+#bottom-paragraph{
+    font-weight:900;
+    text-align: unset;
+    margin-left:60px;
+}
+.bottom-a1{
+    margin-left:80px;
+}
+.bottom-a2{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+         
